@@ -40,12 +40,27 @@ p {
     rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 0.4)
   );
+  height: 30px;
   padding: 10px;
   line-height: 28px;
   text-align: justify;
   position: absolute;
   bottom: 0;
   margin: 0;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
 }
 
 .first-meal {
@@ -58,4 +73,8 @@ p {
 
 .dessert {
   background-image: url("../images/dessertcourse.jpg");
+}
+
+.price {
+  float: right;
 }
