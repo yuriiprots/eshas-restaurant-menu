@@ -10,6 +10,7 @@ div {
   height: 200px;
   margin: 40px 0 0 0;
   border-radius: 12px;
+  position: relative;
 }
 
 h1 {
@@ -39,6 +40,12 @@ p {
     rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 0.4)
   );
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
 }
 
 .first-meal {
